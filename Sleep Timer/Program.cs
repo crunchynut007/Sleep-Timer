@@ -76,7 +76,7 @@ namespace Sleep_Timer
 
 		private static void OnTimedEvent(object  source, ElapsedEventArgs elapsed) {
 			Console.Clear();
-			Console.Write("Windows is Going to Sleep at " + DateTime.Now);
+			Console.Write("Windows has gone to sleep at " + DateTime.Now);
 
 			//sleep the computer
 			aTimer.Stop();
